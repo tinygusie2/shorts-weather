@@ -38,7 +38,7 @@ console.error('Fout bij het ophalen van weergegevens:', error);
     document.getElementById("location").innerText = '';
     
   
-const shortsDecision = isShortsWeather ? "Ja, je kan vandaag een korte broek dragen!" : "Nee, het is te koud.";
+const shortsDecision = isShortsWeather ? "Ja, je kan vandaag een korte broek dragen." : "Nee, het is te koud.";
     document.getElementById("shorts-decision").innerText = shortsDecision;
   }
   
